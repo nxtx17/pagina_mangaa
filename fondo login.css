@@ -1,13 +1,64 @@
 body{
-    margin: 200px;
-    padding: 200px;
-    background: url(ruka_hentai.jpg);   
+    margin: auto;
+    padding: auto;
+    background: url(perrakugo.jpg);   
     background: size 100%; 
     background-position: center;
     font-family: sans-serif;
+    display: flex;
 }
 
 #login-principal{
 
     text-align: center;
+    
+}
+.home{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    background-color: #fff;
+    min-width: 250px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 25px;
+}
+
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: #f3f3f3;
+    padding: 30px;
+    border: 1px solid rgba(0, 0 , 0 );
+ 
+
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+@media ( max-width:768px){
+    form {
+        width: 75%;
+    }
+}
+
+@media ( max-width:480px){
+    form {
+        width: 95%;
+    }
 }
