@@ -16,7 +16,13 @@ body {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-  }  
+  }
+
+  .dropdown-menu {
+    color: #421a1a !important;
+    background-color: rgb(7, 6, 6) !important;
+  }
+
   .jumbotron {
     background-color: #201b19;
     color: #fff;
