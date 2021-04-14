@@ -1,3 +1,39 @@
 body{
-    background:blueviolet
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    font-size: 1,3rem;
+    line-height: 1,3rem;
+    background: burlywood;
+}
+
+p {
+    margin-bottom: 1,6em;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(59, 59, 59);
+    color: rgb(233, 233, 233);
+    padding: 2rem 0 ;
+}
+
+.header{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation{
+    
 }
