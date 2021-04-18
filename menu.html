@@ -1,8 +1,7 @@
 
-<html lang="en">
+<html lang="es">
     <head>
-      <!-- Theme Made By www.w3schools.com -->
-      <title>Bootstrap Theme Company Page</title>
+      <title>IMADAMIMANGA</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -25,10 +24,29 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">ABOUT</a></li>
             <li><a href="#services">MANGAS</a></li>
-            <li><a href="#portfolio">CREADORES</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#about">PARA USTEDES</a></li>
+            <li><a href="#portfolio">ADMINS</a></li>
+            
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categorias
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">SHONEN</a></li>
+                <li><a href="#">ISEKAI</a></li>
+                <li><a href="#">SEINEN</a></li>
+                <li><a href="#">THRILLER</a></li>
+                <li><a href="#">DRAMA</a></li>
+                <li><a href="#">DEPORTES</a></li>
+              </ul>
+              <li><a href="#contact">CONTACS</a></li>
+            </li>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-warning">Buscar</button>
+            </form>
           </ul>
         </div>
       </div>
@@ -39,9 +57,10 @@
       <p>especializados en mangas de todo tipo</p> 
       <form>
         <div class="input-group">
-          <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+
           <div class="input-group-btn">
-            <button type="button" class="btn btn-danger">Subscribe</button>
+            <a class="btn btn-danger" href="login 2.0.html">Iniciar Sesion</a>
+            <a class="btn btn-danger" href="register.html">Registrarse</a>
           </div>
         </div>
       </form>
@@ -53,37 +72,50 @@
       <br>
       <div class="row slideanim">
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-book logo-small"></span>
+          <img src="shonen.jpg" style="width:110px;height:110px;">
           <h4>SHONEN</h4>
+          <html>
+            <style>
+            </style>
+            <body>
+              <a href="shonen.html"><input type="button"value="seleccionar">
+            </body>
+          </html>
           <p>Mangas de aventuras para todas las edades
           </p>
+          
         </div>
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-book logo-small"></span>
+          <img src="isekai.jpg" style="width:110px;height:110px;">
           <h4>ISEKAI</h4>
+          <button>seleccionar</button>
           <p>Mangas de invocaciones a otro mundo con todo tipo de tramas</p>
         </div>
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-book logo-small"></span>
+          <img src="seinen.png" style="width:110px;height:110px;">
           <h4>SEINEN</h4>
+          <button>seleccionar</button>
           <p>Mangas con mucho contenido gore no apto para menores de de 18 años</p>
         </div>
       </div>
       <br><br>
       <div class="row slideanim">
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-book logo-small"></span>
+          <img src="thriller.png" style="width:110px;height:110px;">
           <h4>THRILLER</h4>
+          <button>seleccionar</button>
           <p>Mangas de asesinatos y misterios</p>
         </div>
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-book logo-small"></span>
+          <img src="drama.jpg" style="width:110px;height:110px;">
           <h4>DRAMA</h4>
+          <button>seleccionar</button>
           <p>Mangas de drama con una buena historia de por medio</p>
         </div>
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-book logo-small"></span>
+          <img src="deportes.jpg" style="width:110px;height:110px;">
           <h4 style="color:#303030;">DEPORTES</h4>
+          <button>seleccionar</button>
           <p>Mangas de deportes para amantes del deporte como futbol, boxeo, atletismo, natacion, etc..</p>
         </div>
       </div>
@@ -93,11 +125,11 @@
     <div class="container-fluid bg-grey">
       <div class="row">
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-globe logo slideanim"></span>
+          <img src="nosotros.jpg" style="width:350px;height:320px;">
         </div>
         <div class="col-sm-8">
           <h2>Sobre Nosotros</h2><br>
-          <h4><strong>Nuestra Mision:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+          <h4><strong>Nuestra Mision:</strong>  Queremos lograr satisfacer tus necesidades lectoras y poder entregarte cada tomo que desees, nuestro equipo de trabajo se originó a partir del problema de no encontrar páginas como esta, ya que no es tan reconocida la lectura de mangas. Por ende queremos levantar este sitio web para ayudar a la comunidad de mangas a expandirse.</h4><br>
         </div>
       </div>
     </div>
@@ -110,11 +142,11 @@
           <h4>Tenemos grandes variedades de titulos asi como tenemos los mejores mangas de todo Latam, en este sitio web encontraras de todo y lo mejor es que es gratuito. Aprovecha ya el entrar a un mundo en donde todo es posible, IMADAMIMANGA te da la bienvenida y esperamos que disfrutes de todo el contenido que tenemos para ti.</p>
         </div>
         <div class="col-sm-4">
-          <span class="glyphicon glyphicon-heart glyphicon-heart logo"></span>
+          <img src="entregarte.jfif" style="width:350px;height:350px;">
         </div>
       </div>
     </div>
-    
+
     <!-- Container (Portfolio Section) -->
     <div id="portfolio" class="container-fluid text-center bg-grey">
       <h2>CREADORES DE LA PÁGINA</h2><br>
@@ -138,14 +170,15 @@
         <div class="col-sm-4">
           <div class="thumbnail">
             <img src="WhatsApp Image 2021-04-13 at 11.42.51 PM.jpeg" alt="San Francisco" width="400" height="300">
-            <p><strong>JP</strong></p>
+            <p><strong>JUAN PABLO PABLO PARDO</strong></p>
             <p><strong>CHILE</strong></p>
             <p>SANTIAGO, LA PINTANA</p>
           </div>
         </div>
       </div><br>
       
-      <h2>What our customers say</h2>
+      <h2>DIOSAS DE LOS CREADORES </h2>
+      <span class="glyphicon  glyphicon-heart "></span>
       <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -157,13 +190,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+            <h4><img src="ruka_hentai.jpg" alt=""><br></span>RUKA SARASHINA</h4>
           </div>
           <div class="item">
             <h4><img src="nino.jpg" alt=""><br><span>Nino Nakano</span></h4>
           </div>
           <div class="item">
-            <h4><img src="mikuuuu.jpg" alt=""><br><span>Miku Nakano</span></h4>
+            <h4><img src="mikuuuu.jpj.jpg" alt=""><br><span>Miku Nakano</span></h4>
           </div>
         </div>
     
@@ -183,7 +216,7 @@
       <h2 class="text-center">CONTACTO</h2>
       <div class="row">
         <div class="col-sm-5">
-          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p>Póngase en contacto con nosotros y le responderemos en 24 horas.</p>
           <p><span class="glyphicon glyphicon-map-marker"></span> Santiago, Chile</p>
           <p><span class="glyphicon glyphicon-phone"></span> +56984836806 </p>
           <p><span class="glyphicon glyphicon-envelope"></span> theduark@gmail.com</p>
