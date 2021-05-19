@@ -146,6 +146,10 @@ body {
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  .bh2manga {
+    
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
