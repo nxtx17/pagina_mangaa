@@ -1,10 +1,7 @@
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #818181; 
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F860046860085209276%2F&psig=AOvVaw0Gn8xxFtp4MpxeR5dB2vyN&ust=1621575233611000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCqq9TE1_ACFQAAAAAdAAAAABAD"); 
-  background-position: center 25%; 
-  background-size: cover; 
+  color: #818181;  
 
 }
 h2 {
@@ -47,7 +44,7 @@ h4 {
 }
 
 .jumbotron {
-  background-color: #4b2d21;
+  background-color: #5e2a15;
   color: #fff;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
