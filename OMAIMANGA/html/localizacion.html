@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalizacion</title>
+</head>
+<body>
+    <button onclick="findMe()">Mostrar ubicacion</button>
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgfWJ7Qf70gWIJoOK854Oh4KumDvpOa-g"></script>
+
+    <script>
+        function findMe(){
+            var output =document.getElementById("map");
+
+            if (navigator.geolocation) {
+               output.innerHTML ="<p> Tu navegador soporta Geolocalizacion</p>";
+            }else{
+                output.innerHTML ="<p> Tu navegador no soporta Geolocalizacion</p>";
+            }
+        //latitud y longitud
+            function localizacion(posicion){
+
+                var latitude = posicion.coords.latitude;
+                var longitude = posicion.coords.longitude;
+       
+                output.innerHTML= "<p>Latitud: " +latitude+"<br>Longitud: "+longitude+"</p>";
+
+            }
+            function error(){
+                output.innerHTML ="<p>No se pudo obtener tu ubicacion</p>";
+
+
+            }
+            
+            navigator.geolocation.getCurrentPosition(localizacion,error);
+        }
+
+   </script>
+    
+</body>
+</html>
