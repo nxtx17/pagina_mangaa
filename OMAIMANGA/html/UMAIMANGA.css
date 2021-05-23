@@ -1,13 +1,15 @@
 body {
+  background-image: url(https://media.istockphoto.com/vectors/abstract-red-striped-background-vector-vector-id1146169210?b=1&k=6&m=1146169210&s=170667a&w=0&h=7HCaVwJp2SWQ2rxM03hpk9d1NnbxnkXjVIG0oFsX6gQ=);
+  background-size: 4000px;
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #818181;  
-
+  color: #000000;  
+  opacity: 10;
 }
 h2 {
   font-size: 24px;
   text-transform: uppercase;
-  color: #303030;
+  color: #000000;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -35,7 +37,7 @@ h4 {
 }
 
 .person:hover {
-  border-color: #db0000;
+  border-color: #00dbd0;
 }
 
 .dropdown-menu {
@@ -44,9 +46,12 @@ h4 {
 }
 
 .jumbotron {
-  background-color: #5e2a15;
-  color: #fff;
-  padding: 100px 25px;
+  background-image: url(https://i.pinimg.com/originals/7a/46/8a/7a468aa9d4e4295044f02a09bd9da634.gif);
+  background-size: 1510px;
+  
+  color: rgb(5, 4, 4);
+
+  padding: 295px 25px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -88,7 +93,7 @@ h1 {
 
 .navbar {
   margin-bottom: 0;
-  background-color: #660404;
+  background-color: #221d1d;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -101,8 +106,8 @@ h1 {
   color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #ffffff !important;
-  background-color: rgb(58, 29, 29) !important;
+  color: #000000 !important;
+  background-color: rgb(78, 23, 23) !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -122,6 +127,7 @@ footer .glyphicon {
 .op-card {
   margin-bottom: 150px;
 }
+
 
 
 @keyframes slide {

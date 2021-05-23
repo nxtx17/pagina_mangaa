@@ -13,7 +13,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url("./ruka_enoja.jpg");
+    background: url("https://i.pinimg.com/originals/7a/46/8a/7a468aa9d4e4295044f02a09bd9da634.gif");
     background-size: cover;
     background-position: center center;
 }
@@ -52,7 +52,7 @@ h1{
     text-transform: uppercase;
     font-size: 1.5em;
     opacity: .7;
-    transition: opacity 3.s ease;
+    transition: opacity ease;
     background-position: center center;
     transform: translate(70%,-25%);
 }

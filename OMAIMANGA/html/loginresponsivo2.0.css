@@ -13,7 +13,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url("./ruka_enoja.jpg");
+    background: url("https://pa1.narvii.com/6204/e93514cf2d95d0ca572c3f365041b5b9d984241b_hq.gif");
     background-size: cover;
     background-position: center center;
 }
@@ -22,11 +22,11 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,03));
+    background: linear-gradient(rgba(41, 46, 48, 0.479),rgba(0,0,0,03));
     width: 380px;
     padding: 50px 70px;
     border-radius: 10px;
-    box-shadow: 7px 7px 60px #000;
+    box-shadow: 7px 7px 60px rgb(92, 18, 18);
 }
 h1{
     text-transform: uppercase;
@@ -52,7 +52,7 @@ h1{
     text-transform: uppercase;
     font-size: 1.5em;
     opacity: .7;
-    transition: opacity 3.s ease;
+    transition: opacity ease;
     background-position: center center;
     transform: translate(70%,-25%);
 }
